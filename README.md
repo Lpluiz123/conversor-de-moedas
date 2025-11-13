@@ -16,6 +16,4 @@ Um projeto simples e funcional de conversor de moedas, desenvolvido puramente co
 | **CSS3** | Estilização e layout responsivo. |
 | **JavaScript (Vanilla)** | Lógica de conversão, manipulação do DOM e formatação de valores. |
 
-## 🚀 Como Executar o Projeto
-
-É muito simples executar este projeto, pois ele não requer nenhuma instalação ou API Key!
+## 🚀 
