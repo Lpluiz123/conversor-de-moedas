@@ -10,6 +10,8 @@ const currentCurrencyToConvert = document.querySelector(
 );
 const FlagConverted = document.querySelector(".flag-converted");
 
+
+
 const formatToReal = new Intl.NumberFormat("pt-BR", {
   style: "currency",
   currency: "BRL",
@@ -34,7 +36,8 @@ const showValueToConvert = () => {
   }
 };
 
-const convertValues = () => {
+const convertValues = async() => {
+  const data = await fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL").then(response => response.json())
   const value = parseFloat(inputValue.value);
   showValueToConvert();
 
@@ -53,13 +56,13 @@ const convertValues = () => {
 
   switch (currencyValueToConvert.value) {
     case "dolar":
-      const valueDolar = value / 5.29;
+      const valueDolar = value / data.USDBRL.high;
       currentCurrencyToConvert.textContent = formatToDolar.format(valueDolar);
       FlagConverted.src = "./assets/estados-unidos.png";
       break;
 
     case "euro":
-      const valueEuro = value / 6.13;
+      const valueEuro = value / data.EURBRL.high;
       currentCurrencyToConvert.textContent = formatToEuro.format(valueEuro);
       FlagConverted.src = "./assets/euro.png";
       break;

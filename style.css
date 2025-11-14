@@ -8,12 +8,14 @@
 
 body {
   background-color: #12052d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .logo {
   width: 250px;
-  display: block;
-  margin: 20px auto;
 }
 
 main {
@@ -51,25 +53,6 @@ input {
   cursor: pointer;
 }
 
-/* button {
-  width: 100%;
-  border-radius: 5px;
-  background: #772fd3;
-  height: 48px;
-  border: none;
-  cursor: pointer;
-  font-size: 18px;
-  color: #fff;
-  text-transform: uppercase;
-}
-
-button:hover {
-  opacity: 0.8;
-}
-
-button:active {
-  opacity: 0.6;
-} */
 
 section {
     display: flex;
