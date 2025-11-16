@@ -23,6 +23,52 @@ Com esta atualização, o projeto evolui de um exercício de lógica interna par
 | **CSS3** | Estilização, design moderno e layout responsivo. |
 | **JavaScript (Vanilla)** | Lógica de conversão, manipulação do DOM e **integração com API `fetch()`**. |
 
-## 🚀 
+---
+
+## 🚀 Como Rodar o Projeto
+
+Siga estas etapas para ter o conversor de moedas em execução na sua máquina local:
+
+### Pré-requisitos
+O projeto é puramente Front-end e não requer a instalação de pacotes. Você só precisa de:
+* Um navegador web moderno.
+
+### 1. Instalação (Baixar o Código)
+
+1.  **Clone o repositório** para sua máquina usando o terminal:
+    ```bash
+    git clone [https://github.com/Lpluiz123/conversor-de-moedas.git](https://github.com/Lpluiz123/conversor-de-moedas.git)
+    ```
+2.  **Navegue** até o diretório do projeto:
+    ```bash
+    cd conversor-de-moedas
+    ```
+3.  **Execute:** Abra o arquivo `index.html` diretamente no seu navegador.
+
+### 2. Como Usar (Interação)
+
+1.  **Insira o Valor:** Digite o valor em **Reais (R$)** no campo de input.
+2.  **Selecione a Moeda:** Escolha a moeda de destino (Dólar Americano ou Euro) no menu *dropdown* "Converter **para**".
+3.  O valor convertido será exibido **automaticamente** abaixo, em tempo real.
+
+---
+
+## 🤝 Contribuição
+
+Sinta-se à vontade para sugerir melhorias, reportar *bugs* ou adicionar novas funcionalidades.
+
+1.  Faça um Fork do projeto.
+2.  Crie uma branch para sua funcionalidade (`git checkout -b feature/NovaFuncionalidade`).
+3.  Faça commit das suas mudanças (`git commit -m 'feat: Adiciona nova funcionalidade X'`).
+4.  Faça Push para a branch (`git push origin feature/NovaFuncionalidade`).
+5.  Abra um Pull Request.
+
+---
+
+## ⚖️ Licença
+
+Este projeto está licenciado sob a **Licença MIT** (ou outra de sua escolha). **[Ação: Crie o arquivo `LICENSE` no seu repositório]**
+
+---
 ## 👨‍💻 [Contato](https://www.linkedin.com/in/luiz-ferreira123/)
 Feito com ❤️ por [LUIZ FELLIPE]
