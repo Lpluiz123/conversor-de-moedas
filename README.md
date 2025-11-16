@@ -65,10 +65,5 @@ Sinta-se à vontade para sugerir melhorias, reportar *bugs* ou adicionar novas f
 
 ---
 
-## ⚖️ Licença
-
-Este projeto está licenciado sob a **Licença MIT** (ou outra de sua escolha). **[Ação: Crie o arquivo `LICENSE` no seu repositório]**
-
----
 ## 👨‍💻 [Contato](https://www.linkedin.com/in/luiz-ferreira123/)
 Feito com ❤️ por [LUIZ FELLIPE]
