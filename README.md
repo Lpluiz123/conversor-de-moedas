@@ -24,6 +24,15 @@ Com esta atualização, o projeto evolui de um exercício de lógica interna par
 | **JavaScript (Vanilla)** | Lógica de conversão, manipulação do DOM e **integração com API `fetch()`**. |
 
 ---
+🧠 O que eu Aprendi com este Projeto
+Este projeto foi crucial para consolidar e aprofundar meu conhecimento em desenvolvimento Front-end dinâmico e consumo de dados. Os principais aprendizados foram:
+
+Consumo de API Assíncrona: Dominei a utilização da função nativa fetch() do JavaScript e o fluxo assíncrono (Promises e async/await) para buscar dados em tempo real.
+
+Manipulação Avançada do DOM: Pratiquei a captura eficiente de eventos (change, input) e a atualização dinâmica de elementos da interface.
+
+Formatação e Localização de Dados: Apliquei o objeto Intl.NumberFormat para garantir a apresentação correta dos valores monetários (BRL, USD, EUR).
+---
 
 ## 🚀 Como Rodar o Projeto
 
